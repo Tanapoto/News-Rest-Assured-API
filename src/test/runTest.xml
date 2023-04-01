@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Res">
+<suite name="News">
 
     <listeners>
         <listener class-name="listeners.TestListener"/>
@@ -8,28 +8,7 @@
     <test name="API_Rest Assured">
         <parameter name="browserType" value="chrome"/>
         <classes>
-            <class name="Testcases.Boards.TestCreateBoard"/>
-            <class name="Testcases.Boards.TestGetListBoards"/>
-            <class name="Testcases.Boards.TestUpdateBoard"/>
-<!--            <class name="Testcases.Boards.TestDeleteBoard"/>-->
-            <class name="Testcases.ListColumns.TestCreateAListColumn"/>
-            <class name="Testcases.ListColumns.TestGetListColumn"/>
-            <class name="Testcases.Cards.TestCreateACard"/>
-            <class name="Testcases.Cards.TestUpdateACard"/>
-<!--            <class name="Testcases.Cards.TestDeleteACard"/>-->
-            <class name="Testcases.Attachments.TestCreateAttachment"/>
-            <class name="Testcases.Attachments.TestGetAttachments"/>
-            <class name="Testcases.Stickers.TestCreateASticker"/>
-            <class name="Testcases.Stickers.TestUpdateASticker"/>
-<!--            <class name="Testcases.Stickers.TestDeleteASticker"/>-->
-            <class name="Testcases.CheckLists.CheckLists.TestCreateACheckList"/>
-            <class name="Testcases.CheckLists.CheckLists.TestUpdateACheckList"/>
-<!--            <class name="Testcases.CheckLists.CheckLists.TestDeleteACheckList"/>-->
-            <class name="Testcases.CheckLists.CheckItems.TestCreateACheckItem"/>
-            <class name="Testcases.CheckLists.CheckItems.TestUpdateACheckItem"/>
-<!--            <class name="Testcases.CheckLists.CheckItems.TestDeleteACheckItem">-->
-
-
+            <class name="Testcases.CheckLists.CheckItems.TestDeleteACheckItem">
 
 
 
