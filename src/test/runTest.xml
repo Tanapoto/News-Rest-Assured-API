@@ -8,7 +8,10 @@
     <test name="API_Rest Assured">
         <parameter name="browserType" value="chrome"/>
         <classes>
-            <class name="Testcases.CheckLists.CheckItems.TestDeleteACheckItem">
+            <class name="Testcases.User.TestCreateUser"/>
+            <class name="Testcases.User.TestLoginUser"/>
+            <class name="Testcases.User.TestUpdateUser"/>
+            <class name="Testcases.User.TestDeleteUser">
 
 
 

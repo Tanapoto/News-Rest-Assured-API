@@ -6,7 +6,7 @@ import java.io.File;
 
 public class Constants {
 
-    public static final String URI = "https://api.trello.com/1/";
+    public static final String URI = "https://petstore.swagger.io/v2/";
 
     public static final String YES = "yes";
     public static final String NO = "no";

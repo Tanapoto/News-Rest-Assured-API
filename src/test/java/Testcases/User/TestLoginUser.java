@@ -1,6 +1,5 @@
-package Testcases.Attachments;
+package Testcases.User;
 
-import Testcases.Cards.TestCreateACard;
 import common.BaseSetup;
 import org.testng.annotations.Test;
 import reports.ExtentReportManager;
@@ -8,22 +7,22 @@ import reports.ExtentTestManager;
 
 import static io.restassured.RestAssured.given;
 
-public class TestGetAttachments extends BaseSetup {
-
+public class TestLoginUser extends BaseSetup {
 
     @Test(priority = 0)
-    public void testGetListsAttachments() {
+    public void testLoginUser() {
+
         String response = given().spec(request())
-                .pathParam("cardId", TestCreateACard.cardId)
+                .pathParam("username", TestCreateUser.userData.get("username"))
+                .pathParam("password", TestCreateUser.userData.get("password"))
                 .when()
-                .get("/cards/{cardId}/attachments?key={key}&token={token}")
+                .get("/user/login?username={username}&password={password}")
                 .then()
                 .assertThat()
                 .spec(response200()).extract().asString();
 
         if (ExtentTestManager.getExtentTest() != null) {
-            ExtentReportManager.pass("Test Get List Attachment Successfully");
+            ExtentReportManager.info("Test Login User Successfully");
         }
     }
-
 }

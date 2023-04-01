@@ -4,14 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4294ba29-424a-4db4-b805-a47beefc556c" name="Changes" comment="" />
+    <list default="true" id="4294ba29-424a-4db4-b805-a47beefc556c" name="Changes" comment="Commit check FW">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/CreatePetPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/tags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/User/CreateUserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/User/UpdateUserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestCreatePet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestUploadImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestCreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestDeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestLoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestUpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Attachments/AttachmentsPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Boards/BoardsPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Boards/ColumnBoardPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Cards/CardPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/CheckLists/CheckItemPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/CheckLists/CheckListPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Stickers/StickersPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Attachments/TestCreateAttachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Attachments/TestGetAttachments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestCreateBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestDeleteBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestGetListBoards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestUpdateBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestCreateACard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestDeleteACard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestUpdateACard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestCreateACheckItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestDeleteACheckItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestUpdateACheckItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestCreateACheckList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestDeleteACheckList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestUpdateACheckList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ListColumns/TestCreateAListColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ListColumns/TestGetListColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestCreateASticker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestDeleteASticker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestUpdateASticker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/runTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,6 +80,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2NoMFvkSwHiqlcqu2Yw53IceO9b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,14 +92,124 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/API_Rest_Projects/News-Rest-Assured-API",
+    "last_opened_file_path": "E:/API_Rest_Projects/Petstore-Rest-Assured-API",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Testcases.Pet" />
+      <recent name="Testcases.Store" />
+      <recent name="Testcases.User" />
+      <recent name="PojoData.User" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestUploadImage.testCreatePet (1)">
+    <configuration name="TestCreatePet.testCreatePet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Pet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestCreatePet" />
+      <option name="METHOD_NAME" value="testCreatePet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreateUserWithList.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.User.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.User" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.User.TestCreateUserWithList" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreateUser.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.User.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.User" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.User.TestCreateUser" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUploadImage.testCreatePet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Pet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestUploadImage" />
+      <option name="METHOD_NAME" value="testCreatePet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUploadImage.testCreatePet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Pet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestUploadImage" />
+      <option name="METHOD_NAME" value="testCreatePet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestUploadImage.testCreatePet (1)" />
+        <item itemvalue="TestNG.TestUploadImage.testCreatePet" />
+        <item itemvalue="TestNG.TestCreatePet.testCreatePet" />
+        <item itemvalue="TestNG.TestCreateUser.testCreateUser" />
+        <item itemvalue="TestNG.TestCreateUserWithList.testCreateUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +220,8 @@
       <updated>1680325883698</updated>
       <workItem from="1680325885324" duration="36000" />
       <workItem from="1680326256872" duration="539000" />
+      <workItem from="1680341087774" duration="760000" />
+      <workItem from="1680341937685" duration="15381000" />
     </task>
     <servers />
   </component>
