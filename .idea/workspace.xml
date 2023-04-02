@@ -4,49 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4294ba29-424a-4db4-b805-a47beefc556c" name="Changes" comment="Commit check FW">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/CreatePetPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/tags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/User/CreateUserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/User/UpdateUserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestCreatePet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestUploadImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestCreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestDeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestLoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestUpdateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="4294ba29-424a-4db4-b805-a47beefc556c" name="Changes" comment="Commit Pj PetStore">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/SearchPetPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojoData/User/LoginUserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestDeletePet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestFindPetByID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestFindPetByStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestUpdatePet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Attachments/AttachmentsPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Boards/BoardsPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Boards/ColumnBoardPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Cards/CardPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/CheckLists/CheckItemPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/CheckLists/CheckListPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Stickers/StickersPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Attachments/TestCreateAttachment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Attachments/TestGetAttachments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestCreateBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestDeleteBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestGetListBoards.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Boards/TestUpdateBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestCreateACard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestDeleteACard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Cards/TestUpdateACard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestCreateACheckItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestDeleteACheckItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckItems/TestUpdateACheckItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestCreateACheckList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestDeleteACheckList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CheckLists/CheckLists/TestUpdateACheckList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ListColumns/TestCreateAListColumn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ListColumns/TestGetListColumn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestCreateASticker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestDeleteASticker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Stickers/TestUpdateASticker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Pet/CreatePetPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/PetPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Pet/category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PojoData/Pet/tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PojoData/Pet/tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestCreatePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestCreatePet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestUploadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/Pet/TestUploadImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/User/TestCreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestCreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/User/TestLoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/User/TestLoginUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/runTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +79,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PojoData.Pet" />
       <recent name="Testcases.Pet" />
       <recent name="Testcases.Store" />
       <recent name="Testcases.User" />
       <recent name="PojoData.User" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestUploadImage.testCreatePet (1)">
-    <configuration name="TestCreatePet.testCreatePet" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/API_Rest_Projects/Petstore-Rest-Assured-API/src/test/runTest.xml">
+    <configuration name="E:/API_Rest_Projects/Petstore-Rest-Assured-API/src/test/runTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/runTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeletePet.testDeletePet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-examples" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Testcases.Pet" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestCreatePet" />
-      <option name="METHOD_NAME" value="testCreatePet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestDeletePet" />
+      <option name="METHOD_NAME" value="testDeletePet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,43 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCreateUserWithList.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-assured-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.User.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testcases.User" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.User.TestCreateUserWithList" />
-      <option name="METHOD_NAME" value="testCreateUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCreateUser.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-assured-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.User.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testcases.User" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.User.TestCreateUser" />
-      <option name="METHOD_NAME" value="testCreateUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUploadImage.testCreatePet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindPetByID.testFindPet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-examples" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Testcases.Pet" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestUploadImage" />
-      <option name="METHOD_NAME" value="testCreatePet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestFindPetByID" />
+      <option name="METHOD_NAME" value="testFindPet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,7 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUploadImage.testCreatePet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUpdatePet.testUpdatePet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Pet" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestUpdatePet" />
+      <option name="METHOD_NAME" value="testUpdatePet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUploadImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-examples" />
       <extension name="coverage">
         <pattern>
@@ -192,8 +161,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testcases.Pet" />
       <option name="MAIN_CLASS_NAME" value="Testcases.Pet.TestUploadImage" />
-      <option name="METHOD_NAME" value="testCreatePet" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -202,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestUploadImage.testCreatePet (1)" />
-        <item itemvalue="TestNG.TestUploadImage.testCreatePet" />
-        <item itemvalue="TestNG.TestCreatePet.testCreatePet" />
-        <item itemvalue="TestNG.TestCreateUser.testCreateUser" />
-        <item itemvalue="TestNG.TestCreateUserWithList.testCreateUser" />
+        <item itemvalue="TestNG.E:/API_Rest_Projects/Petstore-Rest-Assured-API/src/test/runTest.xml" />
+        <item itemvalue="TestNG.TestDeletePet.testDeletePet" />
+        <item itemvalue="TestNG.TestFindPetByID.testFindPet" />
+        <item itemvalue="TestNG.TestUpdatePet.testUpdatePet" />
+        <item itemvalue="TestNG.TestUploadImage" />
       </list>
     </recent_temporary>
   </component>
@@ -221,8 +189,16 @@
       <workItem from="1680325885324" duration="36000" />
       <workItem from="1680326256872" duration="539000" />
       <workItem from="1680341087774" duration="760000" />
-      <workItem from="1680341937685" duration="15381000" />
+      <workItem from="1680341937685" duration="25430000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit Pj PetStore">
+      <created>1680367280241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680367280241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,5 +214,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Pj PetStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Pj PetStore" />
   </component>
 </project>

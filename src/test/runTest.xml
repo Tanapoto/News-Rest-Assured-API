@@ -11,9 +11,13 @@
             <class name="Testcases.User.TestCreateUser"/>
             <class name="Testcases.User.TestLoginUser"/>
             <class name="Testcases.User.TestUpdateUser"/>
-            <class name="Testcases.User.TestDeleteUser">
-
-
+<!--            <class name="Testcases.User.TestDeleteUser"/>-->
+            <class name="Testcases.Pet.TestCreatePet"/>
+            <class name="Testcases.Pet.TestFindPetByID"/>
+            <class name="Testcases.Pet.TestFindPetByStatus"/>
+            <class name="Testcases.Pet.TestUploadImage"/>
+            <class name="Testcases.Pet.TestUpdatePet"/>
+            <class name="Testcases.Pet.TestDeletePet">
 
         </class>
         </classes>

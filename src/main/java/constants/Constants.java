@@ -1,6 +1,5 @@
 package constants;
 
-import helpers.PropertiesHelpers;
 
 import java.io.File;
 
@@ -12,7 +11,6 @@ public class Constants {
     public static final String NO = "no";
 
     public static final String PROJECT_PATH = System.getProperty("user.dir") + File.separator;
-    public static final String EXCEL_DATA_FILE_PATH = PropertiesHelpers.getValueProperties("EXCEL_DATA_FILE_PATH");
     public static final String OPEN_REPORTS_AFTER_EXECUTION = YES;
     public static final String OVERRIDE_REPORTS = YES;
     public static final String PROJECT_NAME = "REST Assured API_Template";

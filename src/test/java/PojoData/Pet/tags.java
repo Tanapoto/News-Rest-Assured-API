@@ -12,4 +12,8 @@ public class tags {
         this.id = id;
         this.name = name;
     }
+
+    public tags(String name) {
+        this.name = name;
+    }
 }

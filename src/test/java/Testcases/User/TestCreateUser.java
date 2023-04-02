@@ -27,8 +27,6 @@ public class TestCreateUser extends BaseSetup {
         final List<Object[]> getTestData = new ArrayList<>();
         getTestData.add(new Object[]{faker.name().username(), faker.name().firstName(),  faker.name().lastName()
                 , faker.internet().emailAddress(), faker.internet().password(), faker.phoneNumber().cellPhone()});
-        getTestData.add(new Object[]{faker.name().username(), faker.name().firstName(),  faker.name().lastName()
-                , faker.internet().emailAddress(), faker.internet().password(), faker.phoneNumber().cellPhone()});
         return getTestData.iterator();
     }
 

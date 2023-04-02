@@ -12,4 +12,8 @@ import lombok.Data;
             this.id = id;
             this.name = name;
         }
+
+        public category(String name) {
+            this.name = name;
+        }
     }
