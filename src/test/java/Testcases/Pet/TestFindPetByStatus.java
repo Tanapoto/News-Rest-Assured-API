@@ -27,8 +27,6 @@ public class TestFindPetByStatus extends BaseSetup {
         Gson gson = new Gson();
         List<SearchPetPojo> petPojo = Arrays.asList(gson.fromJson(response,SearchPetPojo[].class));
 
-
-
         Assert.assertEquals(petPojo.get(0).getId(),TestCreatePet.petData.get("petId"));
         Assert.assertEquals(petPojo.get(0).getCategory().getId(),TestCreatePet.petData.get("categoryId"));
         Assert.assertEquals(petPojo.get(0).getCategory().getName(),TestCreatePet.petData.get("categoryName"));

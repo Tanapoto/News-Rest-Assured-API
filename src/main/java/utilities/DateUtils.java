@@ -19,6 +19,12 @@ public final class DateUtils {
         return formatter.format(now);
     }
 
+    public static String getCurrentDate(Date future) {
+        Date now = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+        return formatter.format(now);
+    }
+
     public static String getCurrentDateTimeCustom(String separator_Character) {
         Date now = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");

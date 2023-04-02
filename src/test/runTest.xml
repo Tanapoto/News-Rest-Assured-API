@@ -17,7 +17,10 @@
             <class name="Testcases.Pet.TestFindPetByStatus"/>
             <class name="Testcases.Pet.TestUploadImage"/>
             <class name="Testcases.Pet.TestUpdatePet"/>
-            <class name="Testcases.Pet.TestDeletePet">
+<!--            <class name="Testcases.Pet.TestDeletePet">-->
+            <class name="Testcases.Store.TestOrder"/>
+            <class name="Testcases.Store.TestGetOrder"/>
+            <class name="Testcases.Store.TestDeleteOrder">
 
         </class>
         </classes>
